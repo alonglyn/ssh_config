@@ -1,9 +1,10 @@
 sudo apt install zsh
-
+git clone https://gitee.com/mirrors/oh-my-zsh.git
+cd tools/
+sh ./install.sh
 chsh -s /bin/zsh
 
-wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh
-bash ./install.sh
+
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 sudo apt install autojump
 sudo apt install fasd
